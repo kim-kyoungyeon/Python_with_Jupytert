@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>입력양식태그</title>
+</head>
+<body>
+    <form method="post" action="newMember.jsp">
+        label 태그 사용하지 않음<p>
+        성명<input type="text" id="name" size="10" autofocus><br>
+        <input type ="text" id="prdNo"hidden>
+        <hr>
+        label 태그 사용
+        <label for ="id"></label>
+        성명<input type ="text" id = "name2" size="10"><br><br>
+        <label1>아이디<input type ="text" id="id" maxlength="8"></label1><br><br>
+        <label1>우편번호<input type ="text" id="zipcode" value="10010" readonly></label1><br><br>
+        <label1>주소<input type ="text" id="address" required></label1><br><br>
+        <hr>
+        <label1>비밀번호<input type ="password" id="password" size="10"></label1><br><br>
+
+    학년 :
+        <label1><input type ="radio" name="year" value="1">1학년</label1><!--사용자선택할수있는 영역넓힘-->
+        <label1><input type ="radio" name="year" value="2">2학년</label1>
+        <label1><input type ="radio" name="year" value="3">3학년</label1>
+        <label1><input type ="radio" name="year" value="4"checked>4학년</label1><br><br>
+
+    취미:
+        <label1><input type="checkbox" id="game"value="게임"checked>게임</label1>
+        <label1><input type="checkbox" id="movie"value="영화"checked>영화</label1>
+        <label1><input type="checkbox" id="reading"value="독서"checked>독서</label1>
+        <label1><input type="checkbox" id="sports"value="운동"checked>운동</label1><br><br>
+    첨부파일 선택 : <input type="file" size="30" ><br><br>
+    <input type="button" value="아이디 중복 확인"><br><br>
+    <input type="image" id="ordering" src="image/cart.jpg"><br><br>
+    <label>이메일<input type="email"><br><br></label>
+
+    해방하고 싶은 나라:
+    <select name ="nation">
+        <option value="미국">미국</option>
+        <option value="중국">중국</option>
+        <option value="호주"selected>호주</option>
+        <option value="미국">미국</option>
+        <option value="일본">일본</option>
+        <option value="브라질">브라질</option>
+        <option value="기타">기타</option>
+    </select><br><br>
+
+    자기소개 <br>
+    <textarea rows="10"cols="50" name="contents"></textarea><br><br>
+
+        <input type="submit" value="회원가입"><input type ="reset" value="취소">
+        <!--sumit 제출 백엔드 고개 자료 백업-->
+    </form>
+    label 태그 사용하지 않고 힌트 출력<p></p>
+    <input type="text" name="id" size="10" placeholder="아이디"><br>
+</body> <!--placeholder 입력힌트표기 autofocus 입력커서 표시 hidden 안보이기 required 필수로 지정 현재는 차이없음 버튼 추가후 확인-->
+</html>

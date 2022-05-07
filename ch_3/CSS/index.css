@@ -1,0 +1,60 @@
+@charset'utf-8';
+/* CSS Documnent*/
+#wrap{
+    margin:0 auto; /* 가운데정렬*/
+    width: 1000px;
+    background-color:white; /*배경색*/
+    color:white; /* 텍스트 색상 */
+    }
+header{
+    text-align :right; /*내부요소 오른쪽 정렬*/
+    line-height:40px;/*줄 간격= 수직으로 가운데 정렬 효과*/
+    height:40px;
+    background-color:#0C3;
+    padding-right:20px;
+    }
+ #menuBox{
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:0;
+    height:35px;
+    line-height:35px;
+    background-color:orange;
+    text-align:center;
+    color:blue;
+  }
+  #subMenuBox{
+    height:35px;
+    line-height:35px;
+    background-color:#FF0;
+    text-align:center;
+    color:blue;
+  }
+  #slideShowBox{
+    margin-top:10px;
+    height:200px;
+    line-height:200px;
+    background-color:blue;
+    text-align:center;
+   }
+  #content{
+    margin-top:10px;
+    height:500px;
+    line-height:500px;
+    background-color:navy;
+    text-align:center;
+   }
+  #companyInfo{
+    margin-top:10px;
+    height:200px;
+    line-height:200px;
+    background-color:black;
+    color:yellow;
+    text-align:center;
+   }
+
+
+
+
+
+

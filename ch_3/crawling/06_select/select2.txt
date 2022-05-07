@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <h1>select() 사용</h1>
+        <div id="main">
+            <h1>도서목록</h1>
+            <div>
+                <h1>프로그래밍</h1>
+                <ul class="items">
+                    <li>파이썬</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            <div>
+            <div>
+                <h1>인문학</h1>
+                <ul class="items">
+                    <li>사피엔스</li>
+                    <li>역사의 역사</li>
+                    <li>호모데우스</li>
+                </ul>
+            <div>
+        </div>
+    </body>
+</html>

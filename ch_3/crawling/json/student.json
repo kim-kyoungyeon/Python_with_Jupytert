@@ -1,0 +1,19 @@
+{
+    "student": [
+        {
+            "name": "홍길동",
+            "year": 1,
+            "grade": "C"
+        },
+        {
+            "name": "이몽룡",
+            "year": 4,
+            "grade": "A"
+        },
+        {
+            "name": "성춘향",
+            "year": 3,
+            "grade": "B"
+        }
+    ]
+}

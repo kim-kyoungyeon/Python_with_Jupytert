@@ -1,0 +1,19 @@
+{
+	"member": [
+		{
+			"name": "Kim",
+			"from": "Seoul",
+			"website": "naver.com"
+		},
+		{
+			"name": "Park",
+			"from": "Busan",
+			"website": "google.com"
+		},
+		{
+			"name": "Lee",
+			"from": "Incheon",
+			"website": "daum.net"
+		}
+	]
+}
