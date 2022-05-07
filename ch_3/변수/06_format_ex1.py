@@ -1,12 +1,8 @@
-kor=90
-eng= 80
-math= 80
-total=90+80+80
+kor = 90
+eng = 80
+math = 80
 
-average= (total)/3
-print("총점 : ", total)
+total=kor+eng+math
+average=total/3
 
-print( "평균 %.2f"  %average)
-total = kor + eng + math
-print("총점 : %d, 평균 : %.2f" % (total,average))
-#상수 = 대문자
+print("총점: %d, 평균: %.2f"% (total,average))
